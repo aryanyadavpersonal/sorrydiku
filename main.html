@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorry Messages</title>
+    <link rel="stylesheet" href="buttons.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="button-container">
+      <h2>To my dearest Diku...</h2>
+      <button class="msg-btn" id="btn1">🌹 A Token of Love 🌹</button>
+      <button class="msg-btn" id="btn2">💫 Our Beautiful Memories 💫</button>
+      <button class="msg-btn" id="btn3">💌 A Heartfelt Apology 💌</button>
+      <button class="msg-btn" id="btn4">✨ A Promise Forever ✨</button>
+      <button class="msg-btn" id="btn5">💖 Let’s Start Fresh 💖</button>
+    </div>
+
+    <!-- Pop-up message container -->
+    <div id="message-popup" class="popup hidden">
+      <p id="message-text"></p>
+      <img id="popup-img" src="" alt="Us" />
+      <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+  </body>
+</html>
